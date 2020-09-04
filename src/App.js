@@ -4,6 +4,8 @@ import Toyota from './Components/Toyota';
 import Car from './Components/Car';
 import Sonic from './Components/Sonic';
 import Mask from './Components/Mask';
+import BestJimCarreyMovies from './Components/BestJimCarreyMovies';
+import Movie from './Components/Movie';
 
 function App() {
   return (
@@ -19,6 +21,10 @@ function App() {
       <h1>Favorite Movies</h1>
       <Sonic />
       <Mask />
+      <BestJimCarreyMovies movie="Ace Ventura" />
+      <BestJimCarreyMovies movie="Dumb and Dumber" />
+      <Movie title="The Truman Show" actor="Jim Carrey" />
+      <Movie title="The Fast and the Furious" actor="Paul Walker" />
     </div>
   );
 }
