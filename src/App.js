@@ -6,6 +6,7 @@ import Sonic from './Components/Sonic';
 import Mask from './Components/Mask';
 import BestJimCarreyMovies from './Components/BestJimCarreyMovies';
 import Movie from './Components/Movie';
+import WhyMenShouldntWearSkinnyJeans from './Components/WhyMenShouldntWearSkinnyJeans';
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
       <BestJimCarreyMovies movie="Dumb and Dumber" />
       <Movie title="The Truman Show" actor="Jim Carrey" />
       <Movie title="The Fast and the Furious" actor="Paul Walker" />
+
+      <h1>Why Men Shouldn't Wear Skinny Jeans</h1>
+      <WhyMenShouldntWearSkinnyJeans />
     </div>
   );
 }
